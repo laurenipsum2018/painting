@@ -160,7 +160,7 @@
   height: 2px;
   overflow: hidden;
   background-color: #6E6262;
-  box-shadow: 0 0 1px 2px #6E6262;
+  box-shadow: 0 0 1px 1px #6E6262;
   border-radius: 100%;
   transform: rotate(-5deg);
   z-index: 210;
@@ -277,10 +277,11 @@
 #person .face-base {
   display: inline-block;
   position: absolute;
+  margin: 12px 10px;
   background-color: #dcc0bb;
   overflow: hidden;
-  width: 200px;
-  height: 260px;
+  width: 190px;
+  height: 240px;
   box-shadow: inset -15px -3px 5px -12px #6B6C92, inset -9px -33px 8px -24px rgba(80, 4, 4, 0.38), inset -15px -3px 9px -12px #1D1843, inset 31px 53px 26px -46px #DACEC8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.34);
   border-radius: 100%;
   z-index: 150;
