@@ -238,6 +238,18 @@
   border-radius: 50%;
   z-index: 1;
 }
+#person .ear {
+  display: inline-block;
+  position: absolute;
+  margin: 110px -6px;
+  background-color: #D4B0A2;
+  overflow: hidden;
+  width: 40px;
+  height: 64px;
+  border-radius: 100%;
+  z-index: 140;
+  transform: rotate(-10deg);
+}
 #person .forehead {
   display: inline-block;
   position: absolute;
@@ -295,7 +307,8 @@
   width: 120px;
   height: 180px;
   box-shadow: inset -15px -3px 5px -12px #6B6C92, inset -9px -33px 8px -24px rgba(80, 4, 4, 0.38), inset -15px -3px 9px -12px #1D1843, inset 31px 53px 26px -46px #DACEC8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.34);
-  border-radius: 5px 20px 5px;
+  border-radius: 5px 10px 10px;
+  transform: rotate(2deg);
   z-index: 100;
 }
 
