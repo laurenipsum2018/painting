@@ -187,6 +187,7 @@
       height: 50px;
       background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);
       clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
+      z-index: 2;
     }
     .bottom-lip {
       display: inline-block;
@@ -197,6 +198,17 @@
       height: 40px;
       background: radial-gradient($red-lip-dk, $red-lip-li);
       clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
+      z-index: 2;
+    }
+    .mouth-inside {
+      display: inline-block;
+      position: absolute;
+      margin: 174px 0 0 104px;
+      width: 40px;
+      height: 14px;
+      background-color: black;
+      border-radius: 50%;
+      z-index: 1;
     }
   }
 
