@@ -13,18 +13,38 @@
   }
 }
 body {
-  background-color: #121212;
+  background-color: #333333;
+  display: block;
+  position: absolute;
+  top: 12%;
+  margin-left: 46%;
 }
 
-.face {
+#person {
+  display: block;
+  margin: 30% 0;
+}
+#person .forehead {
+  display: block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  background-color: #E2D1CE;
+  overflow: hidden;
+  box-shadow: 0 0 25px 29px #e2d1ce, 71px 10px 39px 23px #b39488;
+  border-radius: 100%;
+  z-index: 2;
+}
+#person .face-base {
+  display: block;
   position: relative;
   background-color: #dcc0bb;
-  margin: auto;
   overflow: hidden;
-  width: 100px;
-  height: 100px;
-  box-shadow: inset -15px -3px 5px -12px #6b6c92, inset -9px -33px 8px -24px rgba(74, 0, 0, 0.38), inset -15px -3px 9px -12px #15122e, inset 31px 53px 26px -46px #dacec8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.34);
-  border-radius: inherit;
+  width: 200px;
+  height: 260px;
+  box-shadow: inset -15px -3px 5px -12px #6B6C92, inset -9px -33px 8px -24px rgba(80, 4, 4, 0.38), inset -15px -3px 9px -12px #1D1843, inset 31px 53px 26px -46px #DACEC8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.34);
+  border-radius: 100%;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
