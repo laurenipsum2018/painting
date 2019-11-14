@@ -45,6 +45,96 @@
   clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
   transform: rotate(14deg);
 }
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l2 {
+  display: inline-block;
+  position: absolute;
+  margin: -6px -10px;
+  width: 16px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
+  transform: rotate(32deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l3 {
+  display: inline-block;
+  position: absolute;
+  margin: -8px -8px;
+  width: 17px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
+  transform: rotate(52deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l4 {
+  display: inline-block;
+  position: absolute;
+  margin: -9px -4px;
+  width: 16px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
+  transform: rotate(66deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l5 {
+  display: inline-block;
+  position: absolute;
+  margin: -9px 0px;
+  width: 15px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
+  transform: rotate(84deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l6 {
+  display: inline-block;
+  position: absolute;
+  margin: -10px 2px;
+  width: 17px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(-30deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l7 {
+  display: inline-block;
+  position: absolute;
+  margin: -10px 6px;
+  width: 19px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(-13deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l9 {
+  display: inline-block;
+  position: absolute;
+  margin: -9px 10px;
+  width: 19px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(4deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l10 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 12px;
+  width: 23px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(7deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l11 {
+  display: inline-block;
+  position: absolute;
+  margin: -6px 17px;
+  width: 21px;
+  height: 14px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(15deg);
+}
 #person .face .eye-lhs .eye-eyelid-lhs {
   display: inline-block;
   position: absolute;
