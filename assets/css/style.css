@@ -30,6 +30,21 @@
   z-index: 300;
   transform: rotate(-18deg);
 }
+#person .face .eye-lhs .eye-eyelashes-lhs {
+  display: inline-block;
+  position: absolute;
+  z-index: 1000;
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l1 {
+  display: inline-block;
+  position: absolute;
+  margin: -4px -11px;
+  width: 15px;
+  height: 12px;
+  background-color: #500404;
+  clip-path: polygon(83% 64%, 52% 51%, 23% 37%, 0 19%, 15% 46%, 29% 58%, 49% 65%);
+  transform: rotate(14deg);
+}
 #person .face .eye-lhs .eye-eyelid-lhs {
   display: inline-block;
   position: absolute;
