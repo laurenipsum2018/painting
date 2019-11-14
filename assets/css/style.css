@@ -130,11 +130,31 @@
   display: inline-block;
   position: absolute;
   margin: -7px 18px;
-  width: 20px;
+  width: 18px;
   height: 12px;
   background-color: #500404;
   clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
-  transform: rotate(4deg);
+  transform: rotate(3deg);
+}
+#person .face .eye-rhs .eye-eyelashes-rhs .eye-eyelash-r5 {
+  display: inline-block;
+  position: absolute;
+  margin: -3px 21px;
+  width: 18px;
+  height: 10px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(12deg);
+}
+#person .face .eye-rhs .eye-eyelashes-rhs .eye-eyelash-r6 {
+  display: inline-block;
+  position: absolute;
+  margin: 0 26px;
+  width: 17px;
+  height: 10px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(18deg);
 }
 #person .face .eye-rhs .eye-eyelid-rhs {
   display: inline-block;
