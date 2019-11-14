@@ -176,7 +176,7 @@
   .mouth {
     display: inline-block;
     position: absolute;
-    margin: 4px 0;
+    margin: 4px 0 0 2px;
     z-index: 310;
     .top-lip {
       display: inline-block;
@@ -185,7 +185,7 @@
       transform: rotate(-2deg);
       width: 46px;
       height: 50px;
-      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);;
+      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);
       clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
     }
     .bottom-lip {
@@ -195,7 +195,7 @@
       transform: rotate(-2deg);
       width: 44px;
       height: 40px;
-      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);;
+      background: radial-gradient($red-lip-dk, $red-lip-li);
       clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
     }
   }
@@ -223,16 +223,16 @@
     border-radius: 100%;
     z-index: 150;
   }
-  // .neck {
-  //   display: inline-block;
-  //   position: absolute;
-  //   margin: 8rem 0rem;
-  //   background-color: $tanlight;
-  //   overflow: hidden;
-  //   width: 130px;
-  //   height: 200px;
-  //   box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38), inset -15px -3px 9px -12px $navy, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.34);
-  //   border-radius: 5px 20px 5px;
-  //   z-index: 100;
-  // }
+  .neck {
+    display: inline-block;
+    position: absolute;
+    margin: 8rem 0rem;
+    background-color: $tanlight;
+    overflow: hidden;
+    width: 130px;
+    height: 200px;
+    box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38), inset -15px -3px 9px -12px $navy, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.34);
+    border-radius: 5px 20px 5px;
+    z-index: 100;
+  }
 }
