@@ -141,30 +141,45 @@
 #person .nose {
   display: inline-block;
   position: absolute;
-  margin: 116px 0 0 114px;
+  margin: 116px 0 0 94px;
   z-index: 310;
   transform: rotate(-8deg);
+}
+#person .nose .nose-nostril-lhs {
+  display: inline-block;
+  position: absolute;
+  margin: 40px 0 0 20px;
+  width: 7px;
+  height: 2px;
+  overflow: hidden;
+  background-color: #6E6262;
+  box-shadow: 0 0 1px 2px #6E6262;
+  border-radius: 100%;
+  transform: rotate(10deg);
+  z-index: 210;
 }
 #person .nose .nose-face-blend {
   display: inline-block;
   position: absolute;
-  margin: 3px 0 0 6px;
-  width: 2px;
-  height: 30px;
+  margin: -5px 0 0 20px;
+  width: 14px;
+  height: 14px;
   background-color: #E2D1CE;
   overflow: hidden;
-  box-shadow: 0 0 5px 10px #E2D1CE;
+  box-shadow: 0 0 5px 4px #E2D1CE;
   border-radius: 100%;
   z-index: 200;
 }
 #person .nose .nose-bridge {
   display: inline-block;
   position: absolute;
-  width: 24px;
+  width: 50px;
   height: 54px;
   background: #dcc0bb;
+  clip-path: polygon(40% 0, 71% 0, 88% 63%, 91% 80%, 48% 93%, 38% 71%, 44% 40%);
   box-shadow: inset -15px -3px 5px -12px #6B6C92, inset 31px 53px 26px -46px #DACEC8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.24);
   border-radius: 15px 10px 15px;
+  z-index: 190;
 }
 #person .forehead {
   display: inline-block;
