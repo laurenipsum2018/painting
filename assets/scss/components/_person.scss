@@ -11,7 +11,7 @@
       position: absolute;
       margin: 0 0 0 10px;
       background: $navy;
-      background-image: linear-gradient(0deg, blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
+      background-image: linear-gradient(0deg, $blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
       overflow: hidden;
       width: 22px;
       height: 22px;
