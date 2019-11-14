@@ -1,0 +1,87 @@
+
+#person {
+  display: block;
+  position: absolute;
+  .eye-lhs {
+    display: inline-block;
+    position: absolute;
+    margin: 110px 0 0 50px;
+    .eye-color-lhs {
+      display: inline-block;
+      position: absolute;
+      margin: 0 0 0 10px;
+      background: $navy;
+      background-image: linear-gradient(0deg, blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
+      overflow: hidden;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      z-index: 260;
+      .eye-reflect-lhs {
+        display: inline-block;
+        position: absolute;
+        width: 8px;
+        height: 8px;
+        background: white;
+        border-radius: 50%;
+        z-index: 280;
+      }
+      .eye-pupil-lhs {
+        display: inline-block;
+        position: absolute;
+        margin: 4px 0 0 4px;
+        width: 14px;
+        height: 14px;
+        background: black;
+        border-radius: 50%;
+        z-index: 270;
+      }
+    }
+    .eye-base-lhs {
+      display: inline-block;
+      position: absolute;
+      background-color: white;
+      overflow: hidden;
+      width: 50px;
+      height: 24px;
+      box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38);
+      border-radius: 50%;
+      z-index: 250;
+    }
+  }
+  .forehead {
+    display: inline-block;
+    position: absolute;
+    margin: 3rem 4rem;
+    width: 50px;
+    height: 50px;
+    background-color: $cream;
+    overflow: hidden;
+    box-shadow: 0 0 25px 29px $tanmed, 30px 10px 39px 23px $tan;
+    border-radius: 100%;
+    z-index: 200;
+  }
+  .face-base {
+    display: inline-block;
+    position: absolute;
+    background-color: $tanlight;
+    overflow: hidden;
+    width: 200px;
+    height: 260px;
+    box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38), inset -15px -3px 9px -12px $navy, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.34);
+    border-radius: 100%;
+    z-index: 150;
+  }
+  .neck {
+    display: inline-block;
+    position: absolute;
+    margin: 8rem 0rem;
+    background-color: $tanlight;
+    overflow: hidden;
+    width: 130px;
+    height: 200px;
+    box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38), inset -15px -3px 9px -12px $navy, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.34);
+    border-radius: 5px 20px 5px;
+    z-index: 100;
+  }
+}
