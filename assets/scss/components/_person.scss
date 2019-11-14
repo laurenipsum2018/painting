@@ -243,16 +243,28 @@
     z-index: 200;
   }
   .blush-lhs {
-    // display: inline-block;
-    // position: absolute;
-    // margin: 7rem 4rem;
-    // width: 20px;
-    // height: 20px;
-    // background-color: $cream;
-    // overflow: hidden;
-    // box-shadow: 0 0 25px 29px $tanmed, 30px 10px 39px 23px $tan;
-    // border-radius: 100%;
-    // z-index: 200;
+    display: inline-block;
+    position: absolute;
+    margin: 160px 72px;
+    width: 2px;
+    height: 2px;
+    background-color: $blush;
+    overflow: hidden;
+    box-shadow: 0 0 20px 22px $blush, 20px 4px 29px 13px $tan;
+    border-radius: 100%;
+    z-index: 200;
+  }
+  .blush-rhs {
+    display: inline-block;
+    position: absolute;
+    margin: 160px 170px;
+    width: 1px;
+    height: 1px;
+    background-color: $blush;
+    overflow: hidden;
+    box-shadow: 0 0 20px 14px $blush;
+    border-radius: 100%;
+    z-index: 200;
   }
   .face-base {
     display: inline-block;

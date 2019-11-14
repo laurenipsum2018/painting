@@ -250,6 +250,30 @@
   border-radius: 100%;
   z-index: 200;
 }
+#person .blush-lhs {
+  display: inline-block;
+  position: absolute;
+  margin: 160px 72px;
+  width: 2px;
+  height: 2px;
+  background-color: #F998A5;
+  overflow: hidden;
+  box-shadow: 0 0 20px 22px #F998A5, 20px 4px 29px 13px #b39488;
+  border-radius: 100%;
+  z-index: 200;
+}
+#person .blush-rhs {
+  display: inline-block;
+  position: absolute;
+  margin: 160px 170px;
+  width: 1px;
+  height: 1px;
+  background-color: #F998A5;
+  overflow: hidden;
+  box-shadow: 0 0 20px 14px #F998A5;
+  border-radius: 100%;
+  z-index: 200;
+}
 #person .face-base {
   display: inline-block;
   position: absolute;
