@@ -127,7 +127,36 @@
       z-index: 250;
     }
   }
-  // end eye right 
+  // end eye right
+
+  .nose {
+    display: inline-block;
+    position: absolute;
+    margin: 116px 0 0 114px;
+    z-index: 310;
+    transform: rotate(-8deg);
+    .nose-face-blend {
+      display: inline-block;
+      position: absolute;
+      margin: 3px 0 0 6px;
+      width: 2px;
+      height: 30px;
+      background-color: $cream;
+      overflow: hidden;
+      box-shadow: 0 0 5px 10px $tanmed;
+      border-radius: 100%;
+      z-index: 200;
+    }
+    .nose-bridge {
+      display: inline-block;
+      position: absolute;
+      width: 24px;
+      height: 54px;
+      background: $tanlight;
+      box-shadow: inset -15px -3px 5px -12px $bluegrey, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.24);
+      border-radius: 15px 10px 15px;
+    }
+  }
 
   .forehead {
     display: inline-block;
