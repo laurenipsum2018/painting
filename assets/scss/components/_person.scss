@@ -2,214 +2,232 @@
 #person {
   display: block;
   position: absolute;
-
-  .eye-lhs {
+  .face {
     display: inline-block;
     position: absolute;
-    margin: 120px 0 0 64px;
+    margin: 2px 0 0 4px;
+    transform: rotate(2deg);
     z-index: 300;
-    transform: rotate(-18deg);
-    .eye-eyelid-lhs {
+    .eye-lhs {
       display: inline-block;
       position: absolute;
-      margin: -10px 0 0 -5px;
-      width: 46px;
-      height: 50px;
-      background-image: linear-gradient(to right, #C09D95 18%, #D8B8B1, #EBD9D4, #D8A4A0 89%);
-      clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 45%, 79% 26%, 52% 19%, 23% 26%, 0 44%, 0% 35%, 20% 10%);
-      transform: rotate(16deg);
-      z-index: 280;
-    }
-    .eye-color-lhs {
-      display: inline-block;
-      position: absolute;
-      margin: 0 0 0 10px;
-      background: $navy;
-      background-image: linear-gradient(0deg, $blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
-      overflow: hidden;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      z-index: 260;
-      .eye-reflect-lhs {
+      margin: 120px 0 0 64px;
+      z-index: 300;
+      transform: rotate(-18deg);
+      .eye-eyelid-lhs {
         display: inline-block;
         position: absolute;
-        width: 8px;
-        height: 8px;
-        background: white;
-        border-radius: 50%;
+        margin: -10px 0 0 -5px;
+        width: 46px;
+        height: 50px;
+        background-image: linear-gradient(to right, #C09D95 18%, #D8B8B1, #EBD9D4, #D8A4A0 89%);
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 45%, 79% 26%, 52% 19%, 23% 26%, 0 44%, 0% 35%, 20% 10%);
+        transform: rotate(16deg);
         z-index: 280;
       }
-      .eye-pupil-lhs {
+      .eye-color-lhs {
         display: inline-block;
         position: absolute;
-        margin: 4px 0 0 4px;
-        width: 14px;
-        height: 14px;
-        background: black;
+        margin: 0 0 0 10px;
+        background: $navy;
+        background-image: linear-gradient(0deg, $blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
+        overflow: hidden;
+        width: 22px;
+        height: 22px;
         border-radius: 50%;
-        z-index: 270;
+        z-index: 260;
+        .eye-reflect-lhs {
+          display: inline-block;
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background: white;
+          border-radius: 50%;
+          z-index: 280;
+        }
+        .eye-pupil-lhs {
+          display: inline-block;
+          position: absolute;
+          margin: 4px 0 0 4px;
+          width: 14px;
+          height: 14px;
+          background: black;
+          border-radius: 50%;
+          z-index: 270;
+        }
+      }
+      .eye-base-lhs {
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        overflow: hidden;
+        width: 38px;
+        height: 24px;
+        box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38);
+        border-radius: 14px 50px 10px;
+        transform: rotate(-10deg);
+        z-index: 250;
       }
     }
-    .eye-base-lhs {
-      display: inline-block;
-      position: absolute;
-      background-color: white;
-      overflow: hidden;
-      width: 38px;
-      height: 24px;
-      box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38);
-      border-radius: 14px 50px 10px;
-      transform: rotate(-10deg);
-      z-index: 250;
-    }
-  }
-  // end eye left
+    // end eye left
 
-  .eye-rhs {
-    display: inline-block;
-    position: absolute;
-    margin: 120px 0 0 140px;
-    z-index: 300;
-    transform: rotate(-24deg);
-    .eye-eyelid-rhs {
+    .eye-rhs {
       display: inline-block;
       position: absolute;
-      margin: -10px 0 0 -5px;
-      width: 46px;
-      height: 50px;
-      background-image: linear-gradient(to right, #C09D95 18%, #D8B8B1, #EBD9D4, #D8A4A0 89%);
-      clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 45%, 79% 26%, 52% 19%, 23% 26%, 0 44%, 0% 35%, 20% 10%);
-      transform: rotate(16deg);
-      z-index: 280;
-    }
-    .eye-color-rhs {
-      display: inline-block;
-      position: absolute;
-      margin: 0 0 0 10px;
-      background: $navy;
-      background-image: linear-gradient(0deg, $blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
-      overflow: hidden;
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      z-index: 260;
-      .eye-reflect-rhs {
+      margin: 120px 0 0 140px;
+      z-index: 300;
+      transform: rotate(-24deg);
+      .eye-eyelid-rhs {
         display: inline-block;
         position: absolute;
-        width: 8px;
-        height: 8px;
-        background: white;
-        border-radius: 50%;
+        margin: -10px 0 0 -5px;
+        width: 46px;
+        height: 50px;
+        background-image: linear-gradient(to right, #C09D95 18%, #D8B8B1, #EBD9D4, #D8A4A0 89%);
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 45%, 79% 26%, 52% 19%, 23% 26%, 0 44%, 0% 35%, 20% 10%);
+        transform: rotate(16deg);
         z-index: 280;
       }
-      .eye-pupil-rhs {
+      .eye-color-rhs {
         display: inline-block;
         position: absolute;
-        margin: 4px 0 0 4px;
-        width: 14px;
-        height: 14px;
-        background: black;
+        margin: 0 0 0 10px;
+        background: $navy;
+        background-image: linear-gradient(0deg, $blue, transparent 60%), radial-gradient(circle at 70% 50%, purple, transparent 40%);
+        overflow: hidden;
+        width: 22px;
+        height: 22px;
         border-radius: 50%;
-        z-index: 270;
+        z-index: 260;
+        .eye-reflect-rhs {
+          display: inline-block;
+          position: absolute;
+          width: 8px;
+          height: 8px;
+          background: white;
+          border-radius: 50%;
+          z-index: 280;
+        }
+        .eye-pupil-rhs {
+          display: inline-block;
+          position: absolute;
+          margin: 4px 0 0 4px;
+          width: 14px;
+          height: 14px;
+          background: black;
+          border-radius: 50%;
+          z-index: 270;
+        }
+      }
+      .eye-base-rhs {
+        display: inline-block;
+        position: absolute;
+        background-color: white;
+        overflow: hidden;
+        width: 38px;
+        height: 24px;
+        box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38);
+        border-radius: 14px 50px 10px;
+        transform: rotate(-10deg);
+        z-index: 250;
       }
     }
-    .eye-base-rhs {
-      display: inline-block;
-      position: absolute;
-      background-color: white;
-      overflow: hidden;
-      width: 38px;
-      height: 24px;
-      box-shadow: inset -15px -3px 5px -12px $bluegrey, inset -9px -33px 8px -24px rgba(80,4,4,0.38);
-      border-radius: 14px 50px 10px;
-      transform: rotate(-10deg);
-      z-index: 250;
-    }
-  }
-  // end eye right
+    // end eye right
 
-  .nose {
-    display: inline-block;
-    position: absolute;
-    margin: 116px 0 0 94px;
-    z-index: 310;
-    transform: rotate(-8deg);
-    .nose-nostril-lhs {
+    .nose {
       display: inline-block;
       position: absolute;
-      margin: 40px 0 0 20px;
-      width: 7px;
-      height: 2px;
-      overflow: hidden;
-      background-color: $greymed;
-      box-shadow: 0 0 1px 2px $greymed;
-      border-radius: 100%;
-      transform: rotate(-5deg);
-      z-index: 210;
-    }
-    .nose-face-blend {
-      display: inline-block;
-      position: absolute;
-      margin: -5px 0 0 20px;
-      width: 14px;
-      height: 14px;
-      background-color: $cream;
-      overflow: hidden;
-      box-shadow: 0 0 5px 4px $tanmed;
-      border-radius: 100%;
-      z-index: 200;
-    }
-    .nose-bridge {
-      display: inline-block;
-      position: absolute;
-      width: 50px;
-      height: 54px;
-      background: $tanlight;
-      clip-path: polygon(40% 0, 71% 0, 88% 63%, 91% 80%, 48% 93%, 38% 71%, 44% 40%);
-      box-shadow: inset -15px -3px 5px -12px $bluegrey, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.24);
-      border-radius: 15px 10px 15px;
-      z-index: 190;
-    }
-  } // end nose
+      margin: 116px 0 0 94px;
+      z-index: 310;
+      transform: rotate(-8deg);
+      .nose-nostril-lhs {
+        display: inline-block;
+        position: absolute;
+        margin: 40px 0 0 20px;
+        width: 7px;
+        height: 2px;
+        overflow: hidden;
+        background-color: $greymed;
+        box-shadow: 0 0 1px 2px $greymed;
+        border-radius: 100%;
+        transform: rotate(-5deg);
+        z-index: 210;
+      }
+      .nose-face-blend {
+        display: inline-block;
+        position: absolute;
+        margin: -5px 0 0 20px;
+        width: 14px;
+        height: 14px;
+        background-color: $cream;
+        overflow: hidden;
+        box-shadow: 0 0 5px 4px $tanmed;
+        border-radius: 100%;
+        z-index: 200;
+      }
+      .nose-face-blend-btm {
+        display: inline-block;
+        position: absolute;
+        margin: 32px 0 0 12px;
+        width: 14px;
+        height: 14px;
+        background-color: $tan;
+        overflow: hidden;
+        box-shadow: 0 0 5px 4px $tan;
+        border-radius: 100%;
+        z-index: 200;
+      }
+      .nose-bridge {
+        display: inline-block;
+        position: absolute;
+        width: 50px;
+        height: 54px;
+        background: $tanlight;
+        clip-path: polygon(40% 0, 71% 0, 88% 63%, 91% 80%, 48% 93%, 38% 71%, 44% 40%);
+        box-shadow: inset -15px -3px 5px -12px $bluegrey, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.24);
+        border-radius: 15px 10px 15px;
+        z-index: 190;
+      }
+    } // end nose
 
-  .mouth {
-    display: inline-block;
-    position: absolute;
-    margin: 4px 0 0 2px;
-    z-index: 310;
-    .top-lip {
+    .mouth {
       display: inline-block;
       position: absolute;
-      margin: 164px 0 0 102px;
-      transform: rotate(-2deg);
-      width: 46px;
-      height: 50px;
-      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);
-      clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
-      z-index: 2;
-    }
-    .bottom-lip {
-      display: inline-block;
-      position: absolute;
-      margin: 172px 0 0 103px;
-      transform: rotate(-2deg);
-      width: 44px;
-      height: 40px;
-      background: radial-gradient($red-lip-dk, $red-lip-li);
-      clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
-      z-index: 2;
-    }
-    .mouth-inside {
-      display: inline-block;
-      position: absolute;
-      margin: 174px 0 0 104px;
-      width: 40px;
-      height: 14px;
-      background-color: black;
-      border-radius: 50%;
-      z-index: 1;
-    }
+      margin: 4px 0 0 2px;
+      z-index: 310;
+      .top-lip {
+        display: inline-block;
+        position: absolute;
+        margin: 164px 0 0 102px;
+        transform: rotate(-2deg);
+        width: 46px;
+        height: 50px;
+        background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);
+        clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
+        z-index: 2;
+      }
+      .bottom-lip {
+        display: inline-block;
+        position: absolute;
+        margin: 172px 0 0 103px;
+        transform: rotate(-2deg);
+        width: 44px;
+        height: 40px;
+        background: radial-gradient($red-lip-dk, $red-lip-li);
+        clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
+        z-index: 2;
+      }
+      .mouth-inside {
+        display: inline-block;
+        position: absolute;
+        margin: 174px 0 0 104px;
+        width: 40px;
+        height: 14px;
+        background-color: $grey;
+        border-radius: 50%;
+        z-index: 1;
+      } // end mouth
+    } // end face
   }
 
   .forehead {

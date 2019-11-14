@@ -16,14 +16,21 @@
   display: block;
   position: absolute;
 }
-#person .eye-lhs {
+#person .face {
+  display: inline-block;
+  position: absolute;
+  margin: 2px 0 0 4px;
+  transform: rotate(2deg);
+  z-index: 300;
+}
+#person .face .eye-lhs {
   display: inline-block;
   position: absolute;
   margin: 120px 0 0 64px;
   z-index: 300;
   transform: rotate(-18deg);
 }
-#person .eye-lhs .eye-eyelid-lhs {
+#person .face .eye-lhs .eye-eyelid-lhs {
   display: inline-block;
   position: absolute;
   margin: -10px 0 0 -5px;
@@ -34,7 +41,7 @@
   transform: rotate(16deg);
   z-index: 280;
 }
-#person .eye-lhs .eye-color-lhs {
+#person .face .eye-lhs .eye-color-lhs {
   display: inline-block;
   position: absolute;
   margin: 0 0 0 10px;
@@ -46,7 +53,7 @@
   border-radius: 50%;
   z-index: 260;
 }
-#person .eye-lhs .eye-color-lhs .eye-reflect-lhs {
+#person .face .eye-lhs .eye-color-lhs .eye-reflect-lhs {
   display: inline-block;
   position: absolute;
   width: 8px;
@@ -55,7 +62,7 @@
   border-radius: 50%;
   z-index: 280;
 }
-#person .eye-lhs .eye-color-lhs .eye-pupil-lhs {
+#person .face .eye-lhs .eye-color-lhs .eye-pupil-lhs {
   display: inline-block;
   position: absolute;
   margin: 4px 0 0 4px;
@@ -65,7 +72,7 @@
   border-radius: 50%;
   z-index: 270;
 }
-#person .eye-lhs .eye-base-lhs {
+#person .face .eye-lhs .eye-base-lhs {
   display: inline-block;
   position: absolute;
   background-color: white;
@@ -77,14 +84,14 @@
   transform: rotate(-10deg);
   z-index: 250;
 }
-#person .eye-rhs {
+#person .face .eye-rhs {
   display: inline-block;
   position: absolute;
   margin: 120px 0 0 140px;
   z-index: 300;
   transform: rotate(-24deg);
 }
-#person .eye-rhs .eye-eyelid-rhs {
+#person .face .eye-rhs .eye-eyelid-rhs {
   display: inline-block;
   position: absolute;
   margin: -10px 0 0 -5px;
@@ -95,7 +102,7 @@
   transform: rotate(16deg);
   z-index: 280;
 }
-#person .eye-rhs .eye-color-rhs {
+#person .face .eye-rhs .eye-color-rhs {
   display: inline-block;
   position: absolute;
   margin: 0 0 0 10px;
@@ -107,7 +114,7 @@
   border-radius: 50%;
   z-index: 260;
 }
-#person .eye-rhs .eye-color-rhs .eye-reflect-rhs {
+#person .face .eye-rhs .eye-color-rhs .eye-reflect-rhs {
   display: inline-block;
   position: absolute;
   width: 8px;
@@ -116,7 +123,7 @@
   border-radius: 50%;
   z-index: 280;
 }
-#person .eye-rhs .eye-color-rhs .eye-pupil-rhs {
+#person .face .eye-rhs .eye-color-rhs .eye-pupil-rhs {
   display: inline-block;
   position: absolute;
   margin: 4px 0 0 4px;
@@ -126,7 +133,7 @@
   border-radius: 50%;
   z-index: 270;
 }
-#person .eye-rhs .eye-base-rhs {
+#person .face .eye-rhs .eye-base-rhs {
   display: inline-block;
   position: absolute;
   background-color: white;
@@ -138,14 +145,14 @@
   transform: rotate(-10deg);
   z-index: 250;
 }
-#person .nose {
+#person .face .nose {
   display: inline-block;
   position: absolute;
   margin: 116px 0 0 94px;
   z-index: 310;
   transform: rotate(-8deg);
 }
-#person .nose .nose-nostril-lhs {
+#person .face .nose .nose-nostril-lhs {
   display: inline-block;
   position: absolute;
   margin: 40px 0 0 20px;
@@ -158,7 +165,7 @@
   transform: rotate(-5deg);
   z-index: 210;
 }
-#person .nose .nose-face-blend {
+#person .face .nose .nose-face-blend {
   display: inline-block;
   position: absolute;
   margin: -5px 0 0 20px;
@@ -170,7 +177,19 @@
   border-radius: 100%;
   z-index: 200;
 }
-#person .nose .nose-bridge {
+#person .face .nose .nose-face-blend-btm {
+  display: inline-block;
+  position: absolute;
+  margin: 32px 0 0 12px;
+  width: 14px;
+  height: 14px;
+  background-color: #b39488;
+  overflow: hidden;
+  box-shadow: 0 0 5px 4px #b39488;
+  border-radius: 100%;
+  z-index: 200;
+}
+#person .face .nose .nose-bridge {
   display: inline-block;
   position: absolute;
   width: 50px;
@@ -181,13 +200,13 @@
   border-radius: 15px 10px 15px;
   z-index: 190;
 }
-#person .mouth {
+#person .face .mouth {
   display: inline-block;
   position: absolute;
   margin: 4px 0 0 2px;
   z-index: 310;
 }
-#person .mouth .top-lip {
+#person .face .mouth .top-lip {
   display: inline-block;
   position: absolute;
   margin: 164px 0 0 102px;
@@ -198,7 +217,7 @@
   clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
   z-index: 2;
 }
-#person .mouth .bottom-lip {
+#person .face .mouth .bottom-lip {
   display: inline-block;
   position: absolute;
   margin: 172px 0 0 103px;
@@ -209,13 +228,13 @@
   clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
   z-index: 2;
 }
-#person .mouth .mouth-inside {
+#person .face .mouth .mouth-inside {
   display: inline-block;
   position: absolute;
   margin: 174px 0 0 104px;
   width: 40px;
   height: 14px;
-  background-color: black;
+  background-color: #333333;
   border-radius: 50%;
   z-index: 1;
 }
