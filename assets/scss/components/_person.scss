@@ -134,12 +134,22 @@
         .eye-eyelash-r6 {
           display: inline-block;
           position: absolute;
-          margin: 0 26px;
+          margin: 0px 26px;
           width: 17px;
           height: 10px;
           background-color: $tanmedoff;
           clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
           transform: rotate(18deg);
+        }
+        .eye-eyelash-r7 {
+          display: inline-block;
+          position: absolute;
+          margin: 3px 29px;
+          width: 17px;
+          height: 10px;
+          background-color: $tanmedoff;
+          clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+          transform: rotate(30deg);
         }
       } // end eyelashes right
       .eye-eyelid-rhs {
