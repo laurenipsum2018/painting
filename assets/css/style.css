@@ -161,18 +161,6 @@
   border-radius: 100%;
   z-index: 150;
 }
-#person .neck {
-  display: inline-block;
-  position: absolute;
-  margin: 8rem 0rem;
-  background-color: #dcc0bb;
-  overflow: hidden;
-  width: 130px;
-  height: 200px;
-  box-shadow: inset -15px -3px 5px -12px #6B6C92, inset -9px -33px 8px -24px rgba(80, 4, 4, 0.38), inset -15px -3px 9px -12px #1D1843, inset 31px 53px 26px -46px #DACEC8, inset -38px -8px 29px -21px rgba(82, 48, 37, 0.34);
-  border-radius: 5px 20px 5px;
-  z-index: 100;
-}
 
 body {
   background-color: #333333;
