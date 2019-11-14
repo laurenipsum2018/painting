@@ -145,7 +145,7 @@
       background-color: $greymed;
       box-shadow: 0 0 1px 2px $greymed;
       border-radius: 100%;
-      transform: rotate(10deg);
+      transform: rotate(-5deg);
       z-index: 210;
     }
     .nose-face-blend {
@@ -170,6 +170,34 @@
       box-shadow: inset -15px -3px 5px -12px $bluegrey, inset 31px 53px 26px -46px $browngrey, inset -38px -8px 29px -21px rgba(82,48,37,0.24);
       border-radius: 15px 10px 15px;
       z-index: 190;
+    }
+  } // end nose
+
+  .mouth {
+    display: inline-block;
+    position: absolute;
+    margin: 0 0;
+    z-index: 310;
+    .top-lip {
+      display: inline-block;
+      position: absolute;
+      margin: 164px 0 0 102px;
+      transform: rotate(-2deg);
+      width: 46px;
+      height: 50px;
+      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);;
+      clip-path: polygon(52% 14%, 76% 12%, 100% 36%, 69% 30%, 34% 30%, 0 35%, 28% 11%);
+      border-radius: 100%;
+    }
+    .bottom-lip {
+      display: inline-block;
+      position: absolute;
+      margin: 172px 0 0 103px;
+      transform: rotate(-2deg);
+      width: 44px;
+      height: 40px;
+      background: linear-gradient(to right, $red-lip-dk 18%, $red-lip, $red-lip-li, $red-lip 89%);;
+      clip-path: polygon(56% 62%, 76% 57%, 100% 21%, 66% 33%, 35% 33%, 0 24%, 28% 60%);
     }
   }
 
