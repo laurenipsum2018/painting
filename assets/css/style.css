@@ -128,12 +128,32 @@
 #person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l11 {
   display: inline-block;
   position: absolute;
-  margin: -6px 17px;
-  width: 21px;
+  margin: -6px 20px;
+  width: 20px;
   height: 14px;
   background-color: #500404;
   clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
-  transform: rotate(15deg);
+  transform: rotate(20deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l12 {
+  display: inline-block;
+  position: absolute;
+  margin: -3px 26px;
+  width: 18px;
+  height: 14px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(30deg);
+}
+#person .face .eye-lhs .eye-eyelashes-lhs .eye-eyelash-l13 {
+  display: inline-block;
+  position: absolute;
+  margin: 1px 28px;
+  width: 18px;
+  height: 14px;
+  background-color: #500404;
+  clip-path: polygon(60% 64%, 79% 48%, 100% 21%, 68% 43%, 43% 55%, 14% 74%, 33% 75%);
+  transform: rotate(40deg);
 }
 #person .face .eye-lhs .eye-eyelid-lhs {
   display: inline-block;
