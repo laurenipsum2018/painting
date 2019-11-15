@@ -162,6 +162,17 @@
         transform: rotate(-1deg);
         z-index: 500;
       }
+      .bangz-front-lhs-3 {
+        display: inline-block;
+        position: absolute;
+        margin: -10px 7px;
+        width: 90px;
+        height: 290px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 25% 35%, 25% 53%, 32% 100%, 11% 75%, 4% 50%, 0% 35%, 11% 10%);
+        background-color: $brownoff;
+        transform: rotate(1deg);
+        z-index: 500;
+      }
       .bangz-base-lhs {
         display: inline-block;
         position: absolute;
