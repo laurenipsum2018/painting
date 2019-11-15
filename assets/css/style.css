@@ -27,6 +27,17 @@
   transform: rotate(-1deg);
   z-index: 500;
 }
+#person .hair .bangz-base-rhs {
+  display: inline-block;
+  position: absolute;
+  margin: -10px 80px;
+  width: 160px;
+  height: 260px;
+  clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+  background-color: #866559;
+  transform: rotate(4deg);
+  z-index: 500;
+}
 #person .face {
   display: inline-block;
   position: absolute;
