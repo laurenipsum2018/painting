@@ -16,7 +16,44 @@
   display: block;
   position: absolute;
 }
-#person .hair .bangz-base {
+#person .hair .fringe {
+  display: inline-block;
+  position: absolute;
+}
+#person .hair .fringe .fringe-1 {
+  display: inline-block;
+  position: absolute;
+  margin: 30px 41px;
+  width: 50px;
+  height: 110px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+  background-color: #866559;
+  transform: rotate(3deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-2 {
+  display: inline-block;
+  position: absolute;
+  margin: 20px 52px;
+  width: 60px;
+  height: 110px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+  background-color: #866559;
+  transform: rotate(10deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-3 {
+  display: inline-block;
+  position: absolute;
+  margin: 9px 66px;
+  width: 60px;
+  height: 120px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+  background-color: #866559;
+  transform: rotate(2deg);
+  z-index: 500;
+}
+#person .hair .bangz .bangz-base {
   display: inline-block;
   position: absolute;
   margin: -27px -4px;
@@ -27,7 +64,7 @@
   transform: rotate(-1deg);
   z-index: 500;
 }
-#person .hair .bangz-front-lhs {
+#person .hair .bangz .bangz-front-lhs {
   display: inline-block;
   position: absolute;
   margin: -10px 10px;
@@ -38,7 +75,7 @@
   transform: rotate(-3deg);
   z-index: 500;
 }
-#person .hair .bangz-base-lhs {
+#person .hair .bangz .bangz-base-lhs {
   display: inline-block;
   position: absolute;
   margin: -73px -105px;
@@ -50,7 +87,7 @@
   transform: rotate(100deg);
   z-index: 100;
 }
-#person .hair .bangz-base-lhs-btm {
+#person .hair .bangz .bangz-base-lhs-btm {
   display: inline-block;
   position: absolute;
   margin: -24px -40px;
@@ -61,7 +98,7 @@
   transform: rotate(-20deg);
   z-index: 100;
 }
-#person .hair .bangz-front-rhs {
+#person .hair .bangz .bangz-front-rhs {
   display: inline-block;
   position: absolute;
   margin: -5px 82px;
@@ -72,7 +109,7 @@
   transform: rotate(-2deg);
   z-index: 500;
 }
-#person .hair .bangz-front-rhs-2 {
+#person .hair .bangz .bangz-front-rhs-2 {
   display: inline-block;
   position: absolute;
   margin: -27px 82px;
@@ -83,7 +120,7 @@
   transform: rotate(-15deg);
   z-index: 500;
 }
-#person .hair .bangz-front-rhs-3 {
+#person .hair .bangz .bangz-front-rhs-3 {
   display: inline-block;
   position: absolute;
   margin: 50px 116px;
@@ -107,7 +144,7 @@
   margin: 78px 53px;
   width: 59px;
   height: 40px;
-  background-color: #866559;
+  background-color: #6C4F4F;
   clip-path: polygon(91% 26%, 37% 31%, 13% 43%, 0 70%, 19% 56%, 39% 47%, 91% 45%);
   transform: rotate(-1deg);
 }
@@ -323,7 +360,7 @@
   margin: 84px 144px;
   width: 42px;
   height: 35px;
-  background-color: #866559;
+  background-color: #6C4F4F;
   clip-path: polygon(91% 23%, 73% 14%, 1% 13%, 3% 35%, 39% 29%, 78% 31%, 96% 55%);
   transform: rotate(2deg);
   z-index: 1000;

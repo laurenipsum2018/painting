@@ -3,84 +3,124 @@
   display: block;
   position: absolute;
   .hair {
-    .bangz-base {
+    .fringe {
       display: inline-block;
       position: absolute;
-      margin: -27px -4px;
-      width: 210px;
-      height: 230px;
-      clip-path: polygon(50% 0%, 80% 10%, 100% 32%, 96% 56%, 81% 39%, 51% 33%, 21% 40%, 7% 55%, 0 31%, 20% 10%);
-      background-color: $brownoff;
-      transform: rotate(-1deg);
-      z-index: 500;
+      .fringe-1 {
+        display: inline-block;
+        position: absolute;
+        margin: 30px 41px;
+        width: 50px;
+        height: 110px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+        background-color: $brownoff;
+        transform: rotate(3deg);
+        z-index: 500;
+      }
+      .fringe-2 {
+        display: inline-block;
+        position: absolute;
+        margin: 20px 52px;
+        width: 60px;
+        height: 110px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+        background-color: $brownoff;
+        transform: rotate(10deg);
+        z-index: 500;
+      }
+      .fringe-3 {
+        display: inline-block;
+        position: absolute;
+        margin: 9px 66px;
+        width: 60px;
+        height: 120px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+        background-color: $brownoff;
+        transform: rotate(2deg);
+        z-index: 500;
+      }
     }
-    .bangz-front-lhs {
-      display: inline-block;
-      position: absolute;
-      margin: -10px 10px;
-      width: 150px;
-      height: 270px;
-      clip-path: polygon(31% 0, 55% 0, 37% 15%, 25% 35%, 25% 53%, 32% 100%, 11% 75%, 4% 50%, 0% 35%, 11% 10%);
-      background-color: $brownoff;
-      transform: rotate(-3deg);
-      z-index: 500;
-    }
-    .bangz-base-lhs {
-      display: inline-block;
-      position: absolute;
-      margin: -73px -105px;
-      width: 344px;
-      height: 330px;
-      clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
-      background-color: $brownoff;
-      border-radius: 100%;
-      transform: rotate(100deg);
-      z-index: 100;
-    }
-    .bangz-base-lhs-btm {
-      display: inline-block;
-      position: absolute;
-      margin: -24px -40px;
-      width: 200px;
-      height: 300px;
-      background-color: $brownoff;
-      border-radius: 100%;
-      transform: rotate(-20deg);
-      z-index: 100;
-    }
-    .bangz-front-rhs {
-      display: inline-block;
-      position: absolute;
-      margin: -5px 82px;
-      width: 150px;
-      height: 290px;
-      clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
-      background-color: $brownoff;
-      transform: rotate(-2deg);
-      z-index: 500;
-    }
-    .bangz-front-rhs-2 {
-      display: inline-block;
-      position: absolute;
-      margin: -27px 82px;
-      width: 154px;
-      height: 270px;
-      clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
-      background-color: $brownoff;
-      transform: rotate(-15deg);
-      z-index: 500;
-    }
-    .bangz-front-rhs-3 {
-      display: inline-block;
-      position: absolute;
-      margin: 50px 116px;
-      width: 84px;
-      height: 270px;
-      clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
-      background-color: $brownoff;
-      transform: rotate(10deg);
-      z-index: 100;
-    }
+    .bangz {
+      .bangz-base {
+        display: inline-block;
+        position: absolute;
+        margin: -27px -4px;
+        width: 210px;
+        height: 230px;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 32%, 96% 56%, 81% 39%, 51% 33%, 21% 40%, 7% 55%, 0 31%, 20% 10%);
+        background-color: $brownoff;
+        transform: rotate(-1deg);
+        z-index: 500;
+      }
+      .bangz-front-lhs {
+        display: inline-block;
+        position: absolute;
+        margin: -10px 10px;
+        width: 150px;
+        height: 270px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 25% 35%, 25% 53%, 32% 100%, 11% 75%, 4% 50%, 0% 35%, 11% 10%);
+        background-color: $brownoff;
+        transform: rotate(-3deg);
+        z-index: 500;
+      }
+      .bangz-base-lhs {
+        display: inline-block;
+        position: absolute;
+        margin: -73px -105px;
+        width: 344px;
+        height: 330px;
+        clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+        background-color: $brownoff;
+        border-radius: 100%;
+        transform: rotate(100deg);
+        z-index: 100;
+      }
+      .bangz-base-lhs-btm {
+        display: inline-block;
+        position: absolute;
+        margin: -24px -40px;
+        width: 200px;
+        height: 300px;
+        background-color: $brownoff;
+        border-radius: 100%;
+        transform: rotate(-20deg);
+        z-index: 100;
+      }
+      .bangz-front-rhs {
+        display: inline-block;
+        position: absolute;
+        margin: -5px 82px;
+        width: 150px;
+        height: 290px;
+        clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+        background-color: $brownoff;
+        transform: rotate(-2deg);
+        z-index: 500;
+      }
+      .bangz-front-rhs-2 {
+        display: inline-block;
+        position: absolute;
+        margin: -27px 82px;
+        width: 154px;
+        height: 270px;
+        clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+        background-color: $brownoff;
+        transform: rotate(-15deg);
+        z-index: 500;
+
+      }
+      .bangz-front-rhs-3 {
+        display: inline-block;
+        position: absolute;
+        margin: 50px 116px;
+        width: 84px;
+        height: 270px;
+        clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+        background-color: $brownoff;
+        transform: rotate(10deg);
+        z-index: 100;
+      }
+    } // end bangz
   } // end hair
 
   .face {
@@ -95,7 +135,7 @@
       margin: 78px 53px;
       width: 59px;
       height: 40px;
-      background-color: $brownoff;
+      background-color: $brownblack;
       clip-path: polygon(91% 26%, 37% 31%, 13% 43%, 0 70%, 19% 56%, 39% 47%, 91% 45%);
       transform: rotate(-1deg);
     }
@@ -313,7 +353,7 @@
       margin: 84px 144px;
       width: 42px;
       height: 35px;
-      background-color: $brownoff;
+      background-color: $brownblack;
       clip-path: polygon(91% 23%, 73% 14%, 1% 13%, 3% 35%, 39% 29%, 78% 31%, 96% 55%);
       transform: rotate(2deg);
       z-index: 1000;
