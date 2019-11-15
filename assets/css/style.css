@@ -439,12 +439,12 @@
 #person .face .nose .nose-face-blend {
   display: inline-block;
   position: absolute;
-  margin: -5px 0 0 20px;
-  width: 14px;
-  height: 14px;
+  margin: -18px 0 0 24px;
+  width: 10px;
+  height: 22px;
   background-color: #E2D1CE;
   overflow: hidden;
-  box-shadow: 0 0 5px 4px #E2D1CE;
+  box-shadow: 0 0 7px 10px #E2D1CE;
   border-radius: 100%;
   z-index: 200;
 }
