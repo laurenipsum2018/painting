@@ -45,12 +45,100 @@
 #person .hair .fringe .fringe-3 {
   display: inline-block;
   position: absolute;
-  margin: 9px 66px;
-  width: 60px;
+  margin: 5px 48px;
+  width: 50px;
   height: 120px;
-  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(-2deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-4 {
+  display: inline-block;
+  position: absolute;
+  margin: -5px 58px;
+  width: 50px;
+  height: 130px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(-4deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-5 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 61px;
+  width: 70px;
+  height: 130px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(3deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-6 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 72px;
+  width: 70px;
+  height: 144px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(-2deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-7 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 84px;
+  width: 70px;
+  height: 140px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(4deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-8 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 96px;
+  width: 70px;
+  height: 146px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(4deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-9 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 104px;
+  width: 80px;
+  height: 148px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
   background-color: #866559;
   transform: rotate(2deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-10 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 104px;
+  width: 80px;
+  height: 148px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(2deg);
+  z-index: 500;
+}
+#person .hair .fringe .fringe-11 {
+  display: inline-block;
+  position: absolute;
+  margin: -7px 114px;
+  width: 90px;
+  height: 148px;
+  clip-path: polygon(31% 0, 55% 0, 47% 16%, 47% 33%, 53% 48%, 62% 82%, 24% 49%, 10% 28%, 8% 9%, 7% 0);
+  background-color: #866559;
+  transform: rotate(-1deg);
   z-index: 500;
 }
 #person .hair .bangz .bangz-base {
