@@ -2,6 +2,17 @@
 #person {
   display: block;
   position: absolute;
+  .hair {
+    .bangz {
+      display: inline-block;
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      background-color: $brownoff;
+      z-index: 500;
+    }
+  } // end hair
+
   .face {
     display: inline-block;
     position: absolute;

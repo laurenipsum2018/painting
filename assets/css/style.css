@@ -16,6 +16,14 @@
   display: block;
   position: absolute;
 }
+#person .hair .bangz {
+  display: inline-block;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: #866559;
+  z-index: 500;
+}
 #person .face {
   display: inline-block;
   position: absolute;
