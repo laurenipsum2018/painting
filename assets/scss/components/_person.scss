@@ -28,12 +28,11 @@
     .bangz-base-lhs {
       display: inline-block;
       position: absolute;
-      margin: -16px -77px;
-      width: 390px;
-      height: 350px;
-      clip-path: polygon(31% 0, 55% 0, 37% 15%, 25% 35%, 25% 53%, 32% 100%, 11% 75%, 4% 50%, 0% 35%, 11% 10%);
+      margin: -58px -77px;
+      width: 298px;
+      height: 310px;
       background-color: $brownoff;
-      transform: rotate(20deg);
+      border-radius: 100%;
       z-index: 100;
     }
     .bangz-base-lhs-btm {
@@ -49,12 +48,12 @@
     .bangz-front-rhs {
       display: inline-block;
       position: absolute;
-      margin: -10px 80px;
+      margin: -10px 82px;
       width: 150px;
       height: 260px;
       clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
       background-color: $brownoff;
-      transform: rotate(4deg);
+      transform: rotate(-5deg);
       z-index: 500;
     }
   } // end hair
