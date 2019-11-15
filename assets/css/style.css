@@ -49,6 +49,16 @@
   transform: rotate(20deg);
   z-index: 100;
 }
+#person .hair .bangz-base-lhs-btm {
+  display: inline-block;
+  position: absolute;
+  margin: 170px -60px;
+  width: 230px;
+  height: 260px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
+  background-color: #866559;
+  z-index: 100;
+}
 #person .hair .bangz-front-rhs {
   display: inline-block;
   position: absolute;
