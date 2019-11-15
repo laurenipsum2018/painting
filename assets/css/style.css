@@ -41,33 +41,58 @@
 #person .hair .bangz-base-lhs {
   display: inline-block;
   position: absolute;
-  margin: -58px -77px;
-  width: 298px;
-  height: 310px;
+  margin: -73px -105px;
+  width: 344px;
+  height: 330px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
   background-color: #866559;
   border-radius: 100%;
+  transform: rotate(100deg);
   z-index: 100;
 }
 #person .hair .bangz-base-lhs-btm {
   display: inline-block;
   position: absolute;
-  margin: 120px -60px;
-  width: 240px;
+  margin: -24px -40px;
+  width: 200px;
   height: 300px;
-  clip-path: polygon(31% 0, 55% 0, 37% 15%, 32% 32%, 32% 49%, 34% 79%, 9% 57%, 5% 41%, 0 16%, 3% 0);
   background-color: #866559;
+  border-radius: 100%;
+  transform: rotate(-20deg);
   z-index: 100;
 }
 #person .hair .bangz-front-rhs {
   display: inline-block;
   position: absolute;
-  margin: -10px 82px;
+  margin: -5px 82px;
   width: 150px;
-  height: 260px;
+  height: 290px;
   clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
   background-color: #866559;
-  transform: rotate(-5deg);
+  transform: rotate(-2deg);
   z-index: 500;
+}
+#person .hair .bangz-front-rhs-2 {
+  display: inline-block;
+  position: absolute;
+  margin: -27px 82px;
+  width: 154px;
+  height: 270px;
+  clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+  background-color: #866559;
+  transform: rotate(-15deg);
+  z-index: 500;
+}
+#person .hair .bangz-front-rhs-3 {
+  display: inline-block;
+  position: absolute;
+  margin: 50px 116px;
+  width: 84px;
+  height: 270px;
+  clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+  background-color: #866559;
+  transform: rotate(10deg);
+  z-index: 100;
 }
 #person .face {
   display: inline-block;
