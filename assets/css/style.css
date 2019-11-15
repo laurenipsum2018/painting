@@ -529,7 +529,7 @@
   height: 50px;
   background-color: #E2D1CE;
   overflow: hidden;
-  box-shadow: 0 0 25px 29px #E2D1CE, 30px 10px 39px 23px #b39488;
+  box-shadow: 0 0 20px 24px #E2D1CE, 20px 10px 29px 16px #b39488;
   border-radius: 100%;
   z-index: 200;
 }
