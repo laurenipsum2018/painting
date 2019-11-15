@@ -3,12 +3,15 @@
   display: block;
   position: absolute;
   .hair {
-    .bangz {
+    .bangz-base {
       display: inline-block;
       position: absolute;
-      width: 100px;
-      height: 100px;
+      margin: -27px -4px;
+      width: 210px;
+      height: 230px;
+      clip-path: polygon(50% 0%, 80% 10%, 100% 32%, 96% 56%, 81% 39%, 51% 33%, 21% 40%, 7% 55%, 0 31%, 20% 10%);
       background-color: $brownoff;
+      transform: rotate(-1deg);
       z-index: 500;
     }
   } // end hair
