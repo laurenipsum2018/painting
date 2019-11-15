@@ -208,6 +208,17 @@
         transform: rotate(10deg);
         z-index: 100;
       }
+      .bangz-front-rhs-4 {
+        display: inline-block;
+        position: absolute;
+        margin: 0px 154px;
+        width: 94px;
+        height: 190px;
+        clip-path: polygon(62% 0, 79% 6%, 86% 22%, 92% 49%, 87% 74%, 66% 100%, 69% 68%, 65% 44%, 51% 21%, 27% 0);
+        background-color: $brownoff;
+        transform: rotate(-12deg);
+        z-index: 100;
+      }
     } // end bangz
   } // end hair
 
