@@ -27,7 +27,7 @@
   transform: rotate(-1deg);
   z-index: 500;
 }
-#person .hair .bangz-base-lhs {
+#person .hair .bangz-front-lhs {
   display: inline-block;
   position: absolute;
   margin: -10px 10px;
@@ -38,7 +38,18 @@
   transform: rotate(-3deg);
   z-index: 500;
 }
-#person .hair .bangz-base-rhs {
+#person .hair .bangz-base-lhs {
+  display: inline-block;
+  position: absolute;
+  margin: -20px -60px;
+  width: 300px;
+  height: 380px;
+  clip-path: polygon(31% 0, 55% 0, 37% 15%, 25% 35%, 25% 53%, 32% 100%, 11% 75%, 4% 50%, 0% 35%, 11% 10%);
+  background-color: #866559;
+  transform: rotate(3deg);
+  z-index: 100;
+}
+#person .hair .bangz-front-rhs {
   display: inline-block;
   position: absolute;
   margin: -10px 80px;
