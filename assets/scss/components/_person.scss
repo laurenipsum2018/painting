@@ -8,6 +8,16 @@
     margin: 2px 0 0 4px;
     transform: rotate(2deg);
     z-index: 300;
+    .eyebrow-lhs {
+      display: inline-block;
+      position: absolute;
+      margin: 78px 53px;
+      width: 59px;
+      height: 40px;
+      background-color: $brownoff;
+      clip-path: polygon(91% 26%, 37% 31%, 13% 43%, 0 70%, 19% 56%, 39% 47%, 91% 45%);
+      transform: rotate(-1deg);
+    }
     .eye-lhs {
       display: inline-block;
       position: absolute;
@@ -216,6 +226,17 @@
     }
     // end eye left
 
+    .eyebrow-rhs {
+      display: inline-block;
+      position: absolute;
+      margin: 84px 144px;
+      width: 42px;
+      height: 35px;
+      background-color: $brownoff;
+      clip-path: polygon(91% 23%, 73% 14%, 1% 13%, 3% 35%, 39% 29%, 78% 31%, 96% 55%);
+      transform: rotate(2deg);
+      z-index: 1000;
+    }
     .eye-rhs {
       display: inline-block;
       position: absolute;

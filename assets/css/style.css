@@ -23,6 +23,16 @@
   transform: rotate(2deg);
   z-index: 300;
 }
+#person .face .eyebrow-lhs {
+  display: inline-block;
+  position: absolute;
+  margin: 78px 53px;
+  width: 59px;
+  height: 40px;
+  background-color: #866559;
+  clip-path: polygon(91% 26%, 37% 31%, 13% 43%, 0 70%, 19% 56%, 39% 47%, 91% 45%);
+  transform: rotate(-1deg);
+}
 #person .face .eye-lhs {
   display: inline-block;
   position: absolute;
@@ -228,6 +238,17 @@
   border-radius: 14px 50px 10px;
   transform: rotate(-10deg);
   z-index: 250;
+}
+#person .face .eyebrow-rhs {
+  display: inline-block;
+  position: absolute;
+  margin: 84px 144px;
+  width: 42px;
+  height: 35px;
+  background-color: #866559;
+  clip-path: polygon(91% 23%, 73% 14%, 1% 13%, 3% 35%, 39% 29%, 78% 31%, 96% 55%);
+  transform: rotate(2deg);
+  z-index: 1000;
 }
 #person .face .eye-rhs {
   display: inline-block;
